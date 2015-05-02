@@ -1,7 +1,6 @@
 # Object files
 *.o
-*.ko
-*.obj
+*.d
 *.elf
 
 # Precompiled Headers
@@ -15,18 +14,14 @@
 *.lo
 
 # Shared objects (inc. Windows DLLs)
-*.dll
 *.so
 *.so.*
 *.dylib
 
 # Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
+*.axf
 *.hex
+*.bin
 
 # Debug files
 *.dSYM/
